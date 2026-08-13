@@ -1,0 +1,22 @@
+name: Scheme C archive integrity
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  immutable-archive:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Verify original bytes, Python syntax and reference run manifests
+        run: python reproduction-tools/verify_repository.py

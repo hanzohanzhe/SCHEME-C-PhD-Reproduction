@@ -1,0 +1,308 @@
+{
+  "schema_version": "scheme-c.integrity-manifest/v1",
+  "captured_at": "2026-08-13",
+  "source_release": "scheme-c-1000twh-2026-07-18_19",
+  "immutable_roots": [
+    "original-model",
+    "external-storage",
+    "original-drivers",
+    "reference-results"
+  ],
+  "authoritative_preexisting_sha256": {
+    "original-model/run_investment_analysis_case3_decarbonization_breakdown_cm.py": "e0e11057715f5f26a99e804fdd7d9fa386a9b744c85174965584695060d373c9",
+    "original-model/run_investment_analysis.py": "81446a975e51983aef6806a64ca1e5e7bbd70efc97903d8a08b6c9691697e528",
+    "original-model/simulation_model.py": "434f43ca9607ba1b9588826c924d48755965ad99bcf4b3dc0e13089a512e3da0",
+    "original-model/config.py": "587ad317e89305fb60342ed06cd309ee79a00df3e3bcc7dbc2f235fe63478de5",
+    "external-storage/storage_expansion_cap.py": "fd8bdfa1bc71d40334d2bd8ebe88012c7489806c09af9aa7ced33f73a0f60279",
+    "external-storage/apply_storage_expansion.py": "fef44e1ae5fbf42491a1efb3a225a5d4a472378d72eb2d6a8be51023fae3e654"
+  },
+  "benchmark_asset": {
+    "repository": "hanzohanzhe/FORCE-UK-Benchmark-Data",
+    "release_tag": "force-uk-benchmark-2025-v1",
+    "filename": "force-uk-benchmark-2025-v1.zip",
+    "bytes": 842050611,
+    "sha256": "0bc3a78d535fbb6198ee16d708343e6d70a01de76fa2e5459ffb27cebd2cb672"
+  },
+  "files": [
+    {
+      "path": "original-model/cm_battery_cm_allocation.py",
+      "bytes": 3843,
+      "sha256": "9fafbec66c02e82d0965e805659d216ffb89a2f54472a8675f85f83b6e76654c"
+    },
+    {
+      "path": "original-model/config.py",
+      "bytes": 31091,
+      "sha256": "587ad317e89305fb60342ed06cd309ee79a00df3e3bcc7dbc2f235fe63478de5"
+    },
+    {
+      "path": "original-model/generation_trace_io.py",
+      "bytes": 4873,
+      "sha256": "6b993dd2b9bc7b63ea0c014f1024e4b12ae77dbe30854b879f9fdee7453b15d6"
+    },
+    {
+      "path": "original-model/load_decarbonization_cost_breakdown.py",
+      "bytes": 14864,
+      "sha256": "8c259a986f718277f1c407b08d149674f656d27f0946ccbfbdc083ab9636677a"
+    },
+    {
+      "path": "original-model/load_mechanism_costs.py",
+      "bytes": 10012,
+      "sha256": "401048cf92f3c22ede158d5b2e4e112f6b1aa2b6cbb001d5a8dce8b7117dc04a"
+    },
+    {
+      "path": "original-model/map_projects_to_generators_by_location.py",
+      "bytes": 14873,
+      "sha256": "88f54aaaca2e5ad75990c8360e480075d1d7e58d67d1d5718378e8fc3e29c6d7"
+    },
+    {
+      "path": "original-model/README_decarbonization_cost_breakdown.md",
+      "bytes": 3819,
+      "sha256": "e36102913a89a06164c75d7f1e1adafe178bd3eb26446086253751051be2c4a6"
+    },
+    {
+      "path": "original-model/run_investment_analysis.py",
+      "bytes": 151055,
+      "sha256": "81446a975e51983aef6806a64ca1e5e7bbd70efc97903d8a08b6c9691697e528"
+    },
+    {
+      "path": "original-model/run_investment_analysis_case3_decarbonization_breakdown_cm.py",
+      "bytes": 129307,
+      "sha256": "e0e11057715f5f26a99e804fdd7d9fa386a9b744c85174965584695060d373c9"
+    },
+    {
+      "path": "original-model/scenarios_v2/__init__.py",
+      "bytes": 65,
+      "sha256": "4b172d0a96a2e23beafa704585dc36878fed5ffa0e5291b7a0b3afeb5005706b"
+    },
+    {
+      "path": "original-model/scenarios_v2/decarbonization_cost_scenarios_v2.csv",
+      "bytes": 11770,
+      "sha256": "aae3c3c28a44fd32cf999d85dba06d7a510ca4f8871b9449d206da6c473b1513"
+    },
+    {
+      "path": "original-model/scenarios_v2/expansion_policy_v2.py",
+      "bytes": 3997,
+      "sha256": "67b57e72a717b90225fd616871d89c96281891850878c04441512768d5897a8f"
+    },
+    {
+      "path": "original-model/scenarios_v2/load_scenarios_v2.py",
+      "bytes": 12690,
+      "sha256": "71839dbde7523dc7885b5a131c8bc55866f331d7899579ad89900e9f5ca2141c"
+    },
+    {
+      "path": "original-model/simulation_model.py",
+      "bytes": 129616,
+      "sha256": "434f43ca9607ba1b9588826c924d48755965ad99bcf4b3dc0e13089a512e3da0"
+    },
+    {
+      "path": "external-storage/apply_storage_expansion.py",
+      "bytes": 2720,
+      "sha256": "fef44e1ae5fbf42491a1efb3a225a5d4a472378d72eb2d6a8be51023fae3e654"
+    },
+    {
+      "path": "external-storage/storage_expansion_cap.py",
+      "bytes": 35974,
+      "sha256": "fd8bdfa1bc71d40334d2bd8ebe88012c7489806c09af9aa7ced33f73a0f60279"
+    },
+    {
+      "path": "original-drivers/run_base_cm_aligned_repd.py",
+      "bytes": 10086,
+      "sha256": "b60fc641537ca4e10ffcc99a0595964b30f00c4ba315858c022a180be11ebde1"
+    },
+    {
+      "path": "original-drivers/run_three_decarb_aligned_repd.py",
+      "bytes": 10527,
+      "sha256": "902f9a11128655181c51886b6db665f711fdf8d0281c0c68f3b18e499cc3fbf7"
+    },
+    {
+      "path": "reference-results/20260718/03-existing-decarb-base/capacity_history_case3_v2_existing_decarb_base.csv",
+      "bytes": 3821,
+      "sha256": "6ccb9ff630801dc201093b60a9b0745d302b867684f64598cb9ba5fa271ef9ed"
+    },
+    {
+      "path": "reference-results/20260718/03-existing-decarb-base/generation_manifest.json",
+      "bytes": 2602,
+      "sha256": "d6cda08c2b84984a77a5b1881bcdcd3f242979feaed3b694d657adefade2d876"
+    },
+    {
+      "path": "reference-results/20260718/03-existing-decarb-base/investment_summary_case3_v2_existing_decarb_base.csv",
+      "bytes": 367126,
+      "sha256": "8bbe5b5f70d3be7a465f15c7e851703844233e459b101febbfc0e9b9d4f273c7"
+    },
+    {
+      "path": "reference-results/20260718/03-existing-decarb-base/system_cost_history_case3_v2_existing_decarb_base.csv",
+      "bytes": 2131,
+      "sha256": "3b77349030cd9b48e31a34f892010532f432935254314ca014a788bb80d922e8"
+    },
+    {
+      "path": "reference-results/20260718/03-existing-decarb-base/thermal_capacity_history_case3_v2_existing_decarb_base.csv",
+      "bytes": 2307,
+      "sha256": "e548a51b68207e499b0eb000f989f552c74e3189fd0cae2a4f37d9674d4cafc5"
+    },
+    {
+      "path": "reference-results/20260718/07-subsidy-as-usual/capacity_history_case3_v2_subsidy_as_usual.csv",
+      "bytes": 3821,
+      "sha256": "85ae8958b9fd4358f3c2dbde1baf7a1828e32c24ecdce90e97bcd0de8c1b0b5d"
+    },
+    {
+      "path": "reference-results/20260718/07-subsidy-as-usual/generation_manifest.json",
+      "bytes": 2599,
+      "sha256": "8b92dfb724c4ca9854ce55ed5c6b9bb0e4d931d95316ecec67e5d4693532f012"
+    },
+    {
+      "path": "reference-results/20260718/07-subsidy-as-usual/investment_summary_case3_v2_subsidy_as_usual.csv",
+      "bytes": 370662,
+      "sha256": "408d5c044217223618d81de0426389c30ac612007ffb778fd5e5e30fb93bed2b"
+    },
+    {
+      "path": "reference-results/20260718/07-subsidy-as-usual/system_cost_history_case3_v2_subsidy_as_usual.csv",
+      "bytes": 2436,
+      "sha256": "b6ef1904e1cf940228c38f81174b2383d8ae4c8b42e9d207284cb22c8384106e"
+    },
+    {
+      "path": "reference-results/20260718/07-subsidy-as-usual/thermal_capacity_history_case3_v2_subsidy_as_usual.csv",
+      "bytes": 2996,
+      "sha256": "309c839cc0057544e869f98b4243b9b539e0be1cdc6ff5ab5f2a50c9d41d54f6"
+    },
+    {
+      "path": "reference-results/20260718/08-governmental-target/capacity_history_case3_v2_governmental_target.csv",
+      "bytes": 3818,
+      "sha256": "0903b4fa2060bb5b43070137b478ab52ac2c1b0e7376e53c538e92dddb7f5893"
+    },
+    {
+      "path": "reference-results/20260718/08-governmental-target/generation_manifest.json",
+      "bytes": 2601,
+      "sha256": "13d094ca6bf142e60f9cb8739bdc0bd38b7384e229d55f130c345456f26c37d4"
+    },
+    {
+      "path": "reference-results/20260718/08-governmental-target/investment_summary_case3_v2_governmental_target.csv",
+      "bytes": 369736,
+      "sha256": "8cf0042746ba37090b3e20cbd2c2540c5952b1858eaa021a240cf136c08ce725"
+    },
+    {
+      "path": "reference-results/20260718/08-governmental-target/system_cost_history_case3_v2_governmental_target.csv",
+      "bytes": 2448,
+      "sha256": "884b2f695a33641ddf4418c418245e0cf9c4bd153756edfc058c34d0a3df8ca1"
+    },
+    {
+      "path": "reference-results/20260718/08-governmental-target/thermal_capacity_history_case3_v2_governmental_target.csv",
+      "bytes": 3054,
+      "sha256": "e63d4d5f63410188aa04062206a417dd7da93f480189bd08cb333d8711190a4a"
+    },
+    {
+      "path": "reference-results/20260718/run-evidence/03_future_cm_decarb_base_2025_2035.log",
+      "bytes": 394878,
+      "sha256": "67873a4f471556ecc2502136f4c141a522a45ca153fcbc20cb56ad1e6c486436"
+    },
+    {
+      "path": "reference-results/20260718/run-evidence/07_future_subsidy_as_usual_2025_2035.log",
+      "bytes": 399399,
+      "sha256": "333e222a8e8cb219a8a8e60ff246fbe8fb6649212acc04090a0de0445e0f4ba2"
+    },
+    {
+      "path": "reference-results/20260718/run-evidence/08_future_governmental_target_2025_2035.log",
+      "bytes": 398982,
+      "sha256": "7c6d50d8b7504683c3a1b9858cc4e291bc3bc8c354376611c5e9aa8422f77e0d"
+    },
+    {
+      "path": "reference-results/20260718/run-evidence/launcher_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference-results/20260718/run-evidence/launcher_stdout.log",
+      "bytes": 1716,
+      "sha256": "0b61f2b8e6d444e9e7f7a2c6de1914246e76f7ced6b4393f7efe3d2a15d92078"
+    },
+    {
+      "path": "reference-results/20260718/run-evidence/manifest.json",
+      "bytes": 1780,
+      "sha256": "a609a63f5cab078ffc433e746020c9f067346f1d0ee056030dd19e135896f842"
+    },
+    {
+      "path": "reference-results/20260718/run-evidence/queue.log",
+      "bytes": 1716,
+      "sha256": "0b61f2b8e6d444e9e7f7a2c6de1914246e76f7ced6b4393f7efe3d2a15d92078"
+    },
+    {
+      "path": "reference-results/20260719/05-base/capacity_history_future_base_2025_2035.csv",
+      "bytes": 3518,
+      "sha256": "3415888a31be678302dd9b28a599227c8048ff5b89f7d8a826332416d7f7c5d1"
+    },
+    {
+      "path": "reference-results/20260719/05-base/generation_manifest.json",
+      "bytes": 2600,
+      "sha256": "2949c1f9847d23199f04f60f1ee3173fc71f2b8d3d12ed3ee8f40963d073e941"
+    },
+    {
+      "path": "reference-results/20260719/05-base/investment_summary_future_base_2025_2035.csv",
+      "bytes": 366190,
+      "sha256": "d1fc9924cb64fee53973e438cf7be889f138250fc56230a6e1dd8d1e9c255dda"
+    },
+    {
+      "path": "reference-results/20260719/05-base/system_cost_history_future_base_2025_2035.csv",
+      "bytes": 1779,
+      "sha256": "d88ac7a94b53fa2a2cf13d9be2398bd19bd93d61f6908dcde980592d314e9a3a"
+    },
+    {
+      "path": "reference-results/20260719/05-base/thermal_capacity_history_future_base_2025_2035.csv",
+      "bytes": 1737,
+      "sha256": "194579b6c0cde3a8fd81269e5dfbf4177eb68e77475c98a5357c3558411bb506"
+    },
+    {
+      "path": "reference-results/20260719/06-base-with-cm/capacity_history_archive_with_cm.csv",
+      "bytes": 3821,
+      "sha256": "6ccb9ff630801dc201093b60a9b0745d302b867684f64598cb9ba5fa271ef9ed"
+    },
+    {
+      "path": "reference-results/20260719/06-base-with-cm/generation_manifest.json",
+      "bytes": 2602,
+      "sha256": "d6cda08c2b84984a77a5b1881bcdcd3f242979feaed3b694d657adefade2d876"
+    },
+    {
+      "path": "reference-results/20260719/06-base-with-cm/investment_summary_archive_with_cm.csv",
+      "bytes": 367126,
+      "sha256": "8bbe5b5f70d3be7a465f15c7e851703844233e459b101febbfc0e9b9d4f273c7"
+    },
+    {
+      "path": "reference-results/20260719/06-base-with-cm/system_cost_history_archive_with_cm.csv",
+      "bytes": 1913,
+      "sha256": "b536f68f5f75c6fa2d738dfde20bb81e719b6adbe20fcb9553d064003ab80c2e"
+    },
+    {
+      "path": "reference-results/20260719/06-base-with-cm/thermal_capacity_history_archive_with_cm.csv",
+      "bytes": 1957,
+      "sha256": "4419fec8cace3f12d35f6220b853e1db5ec655a0091950df30048db968ac779b"
+    },
+    {
+      "path": "reference-results/20260719/run-evidence/05_future_base_2025_2035.log",
+      "bytes": 397156,
+      "sha256": "46fcc9bdaf6b08cc4fbd18de20d5e6347a1b593bd99231a95568a9afceddb201"
+    },
+    {
+      "path": "reference-results/20260719/run-evidence/06_future_base_with_cm_2025_2035.log",
+      "bytes": 395010,
+      "sha256": "1e773d2297b860a2e293b6ede3098779b102e51caef33fbc45ec6c61694b7a77"
+    },
+    {
+      "path": "reference-results/20260719/run-evidence/launcher_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference-results/20260719/run-evidence/launcher_stdout.log",
+      "bytes": 1420,
+      "sha256": "da75dd6d544eb98ef31f7fef691cd98eb9ba0756c49c0318fc062d9194d56d1a"
+    },
+    {
+      "path": "reference-results/20260719/run-evidence/manifest.json",
+      "bytes": 1350,
+      "sha256": "febebbc14a64cc9d7773e0591d32db3eff0b5b9662e7f9903c1ad9a8057ac182"
+    },
+    {
+      "path": "reference-results/20260719/run-evidence/queue.log",
+      "bytes": 1420,
+      "sha256": "da75dd6d544eb98ef31f7fef691cd98eb9ba0756c49c0318fc062d9194d56d1a"
+    }
+  ]
+}

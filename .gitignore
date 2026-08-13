@@ -1,0 +1,11 @@
+.venv/
+downloads/
+work/
+outputs/
+__pycache__/
+*.py[cod]
+*.tmp
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.pytest_cache/

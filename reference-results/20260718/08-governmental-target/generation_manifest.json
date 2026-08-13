@@ -1,0 +1,92 @@
+{
+  "2025": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 49,
+    "total_generation_mwh": 236048851.55877766,
+    "period_hours": 0.5
+  },
+  "2026": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 49,
+    "total_generation_mwh": 236011816.96612245,
+    "period_hours": 0.5
+  },
+  "2027": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 48,
+    "total_generation_mwh": 234824421.8398046,
+    "period_hours": 0.5
+  },
+  "2028": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 48,
+    "total_generation_mwh": 234257576.36000952,
+    "period_hours": 0.5
+  },
+  "2029": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 48,
+    "total_generation_mwh": 233672622.82511312,
+    "period_hours": 0.5
+  },
+  "2030": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 48,
+    "total_generation_mwh": 233151351.73180073,
+    "period_hours": 0.5
+  },
+  "2031": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 47,
+    "total_generation_mwh": 233130436.82712886,
+    "period_hours": 0.5
+  },
+  "2032": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 47,
+    "total_generation_mwh": 233132444.4307507,
+    "period_hours": 0.5
+  },
+  "2033": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 47,
+    "total_generation_mwh": 231853097.43426985,
+    "period_hours": 0.5
+  },
+  "2034": {
+    "format": "sqlite",
+    "period_trace": "generation_trace.sqlite",
+    "annual_trace": "generation_trace.sqlite",
+    "n_periods": 17520,
+    "n_assets": 47,
+    "total_generation_mwh": 231100027.98377788,
+    "period_hours": 0.5
+  }
+}

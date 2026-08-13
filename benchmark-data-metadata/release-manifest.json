@@ -1,0 +1,217 @@
+{
+  "asset": {
+    "bytes": 842050611,
+    "filename": "force-uk-benchmark-2025-v1.zip",
+    "sha256": "0bc3a78d535fbb6198ee16d708343e6d70a01de76fa2e5459ffb27cebd2cb672",
+    "zip_integrity": "passed"
+  },
+  "bound_payload_bytes": 841916727,
+  "interfaces": 25,
+  "objects": [
+    {
+      "bytes": 2315,
+      "format": "json",
+      "member": "force-uk-benchmark-2025-v1/files/config__model_parameters/model_parameters.json",
+      "role": "config.model_parameters",
+      "sha256": "f22615d0152a6ffb507a0716454d80418cad7644ab2eed63ff5ff319e0ebb580",
+      "unit": null
+    },
+    {
+      "bytes": 502,
+      "format": "json",
+      "member": "force-uk-benchmark-2025-v1/files/costs__capital/capital_costs.json",
+      "role": "costs.capital",
+      "sha256": "b3cdc397422f79de3aa38d9e20d7f6b666c925610254299ab206a4fa9e3bc785",
+      "unit": "GBP/MW"
+    },
+    {
+      "bytes": 183431,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/demand__forecast/2022fd.csv",
+      "role": "demand.forecast",
+      "sha256": "a2d21ff52366c36f8711333a12c3a7a7bc3b34017cca852f330a0189dfe4ddfc",
+      "unit": "MWh/period"
+    },
+    {
+      "bytes": 183438,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/demand__real/2022reald.csv",
+      "role": "demand.real",
+      "sha256": "8298d9b62f89116c56d1ae8b8ffe9ef5ceea2f8fca0f4d8290b24913e5b1ae56",
+      "unit": "MWh/period"
+    },
+    {
+      "bytes": 24405,
+      "format": "json",
+      "member": "force-uk-benchmark-2025-v1/files/fleet__generators/fleet.json",
+      "role": "fleet.generators",
+      "sha256": "bfe1e49e3ce7df34b5e771705d47e23485ba8bb8436f013c282fe0944421a393",
+      "unit": null
+    },
+    {
+      "bytes": 706988,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__belgium__price/Belgium_price.csv",
+      "role": "market.belgium.price",
+      "sha256": "9d74534ffe95efb3a702920c11d28c1a62aa2dc95fd8875e7534447d21885aba",
+      "unit": "GBP/MWh"
+    },
+    {
+      "bytes": 96890,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__belgium__profile/belgium_profile.csv",
+      "role": "market.belgium.profile",
+      "sha256": "c7d727db62077cacdfb3955aa2daa239d394cdc4a94a66a20be71ce1fa28ae10",
+      "unit": "MWh/period"
+    },
+    {
+      "bytes": 379586,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__france__price/France.csv",
+      "role": "market.france.price",
+      "sha256": "03ad5c0e77cb6b21f17e2eb33cf880c01531456b94248352cde4ea31ee88a79c",
+      "unit": "GBP/MWh"
+    },
+    {
+      "bytes": 114178,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__france__profile/France_profile.csv",
+      "role": "market.france.profile",
+      "sha256": "4392a914281816eae8ec230aa290ea0326d2de0aa96b326e02b1979c354e5240",
+      "unit": "MWh/period"
+    },
+    {
+      "bytes": 215744,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__ireland__price/Ireland.csv",
+      "role": "market.ireland.price",
+      "sha256": "f26616315e13051365b55aa86b0fba7a8d0f7e4d64d9c9d4371f6824870cdb70",
+      "unit": "GBP/MWh"
+    },
+    {
+      "bytes": 91116,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__ireland__profile/Ireland_profile.csv",
+      "role": "market.ireland.profile",
+      "sha256": "182e1d00588a46c636c75864b74b9db7a77facf5f47b0bd1a761eeba67c05104",
+      "unit": "MWh/period"
+    },
+    {
+      "bytes": 301950,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__netherlands__price/Netherlands.csv",
+      "role": "market.netherlands.price",
+      "sha256": "59a74a9d0bd72c6742d3c89f76a8eb2b58e9338b24044a58add7020e7439de1c",
+      "unit": "GBP/MWh"
+    },
+    {
+      "bytes": 96417,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__netherlands__profile/nehtheralnd_profile.csv",
+      "role": "market.netherlands.profile",
+      "sha256": "ccda2a9e30bdea9a25173423a42ba864d47a0f1cf958abe1dc9c150830e248b8",
+      "unit": "MWh/period"
+    },
+    {
+      "bytes": 378974,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__norway__price/Norway.csv",
+      "role": "market.norway.price",
+      "sha256": "2f85207bddbf04db4c015d56252e866551cea5a68a720ee928a231fa6bade1a5",
+      "unit": "GBP/MWh"
+    },
+    {
+      "bytes": 97041,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/market__norway__profile/Norway_profile.csv",
+      "role": "market.norway.profile",
+      "sha256": "088041cf8b38a724c06d0cb99d263135b7ccf2ed119b2f8c316b702572f1c6d8",
+      "unit": "MWh/period"
+    },
+    {
+      "bytes": 4445,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/planning__success_rates/regional_technology_success_rates.csv",
+      "role": "planning.success_rates",
+      "sha256": "bd6f5ac68e8f619d196ffe2e4123601a6a56e162a89ef7e45a33a81abc951673",
+      "unit": null
+    },
+    {
+      "bytes": 2657,
+      "format": "json",
+      "member": "force-uk-benchmark-2025-v1/files/planning__timelines/planning_timelines.json",
+      "role": "planning.timelines",
+      "sha256": "c446de3f412c8d18b79a2ed655e598fed7614b16941b5b3a1e1e418115f04b06",
+      "unit": "months"
+    },
+    {
+      "bytes": 6760,
+      "format": "xlsx",
+      "member": "force-uk-benchmark-2025-v1/files/policy__support/mechansim cost.xlsx",
+      "role": "policy.support",
+      "sha256": "666155faabf6fc99b296685038a7e2e3c37b77e0c7aac3a39f9691315ddc8bb2",
+      "unit": "GBP"
+    },
+    {
+      "bytes": 108100,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/profiles__vre_offshore/we.csv",
+      "role": "profiles.vre_offshore",
+      "sha256": "7d3a0cd783ad0077ecb90b1b557a868f6a81984a9fcc9a2bb3067d40fb428256",
+      "unit": "p.u."
+    },
+    {
+      "bytes": 102307,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/profiles__vre_onshore/wa.csv",
+      "role": "profiles.vre_onshore",
+      "sha256": "cd0f16acfd286f1e7af5d71849e87ea88325b632e4847c407249197533fd212b",
+      "unit": "p.u."
+    },
+    {
+      "bytes": 73371,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/profiles__vre_solar/sa.csv",
+      "role": "profiles.vre_solar",
+      "sha256": "15ef49b3f46d07cad7eabc576d64e7764072a48b6ca4cabedc60149180e9578e",
+      "unit": "p.u."
+    },
+    {
+      "bytes": 1555358,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/projects__repd/repd_projects_normalized.csv",
+      "role": "projects.repd",
+      "sha256": "8f4fa835f0210b7c7401f7896a9d78377d5aff97e499b7f9f9839b6feddef3f7",
+      "unit": "MW"
+    },
+    {
+      "bytes": 4411718,
+      "format": "csv",
+      "member": "force-uk-benchmark-2025-v1/files/source__repd_raw/repd-q2-jul-2025.csv",
+      "role": "source.repd_raw",
+      "sha256": "d1038286b32f54b30c8601974094032c2acaba63eea54d3a7f61bcf92fb9ee88",
+      "unit": "MW"
+    },
+    {
+      "bytes": 207782657,
+      "format": "nc",
+      "member": "force-uk-benchmark-2025-v1/files/weather__solar/average_annual_solar_profile.nc",
+      "role": "weather.solar",
+      "sha256": "634e22afa820b3e972fc8648e7e7d5ce6b9dd1caf025ac71ef30afe7950ec977",
+      "unit": null
+    },
+    {
+      "bytes": 624996379,
+      "format": "nc",
+      "member": "force-uk-benchmark-2025-v1/files/weather__wind/average_annual_wind_profile.nc",
+      "role": "weather.wind",
+      "sha256": "56ba374ddb9c2142ba5090f4e812e0d05ea6d27f588275ce1e04cbc7b0f5bfee",
+      "unit": null
+    }
+  ],
+  "release_id": "force-uk-benchmark-2025-v1",
+  "schema_version": "force.uk-benchmark-asset/v1",
+  "source_manifest_sha256": "0098ea69257edb97ca84e0ce00e40b7cc2acb9ade2d449e0db55196d210ea995",
+  "source_pack_id": "uk-scheme-c-1000twh",
+  "unbound_working_files_included": false
+}

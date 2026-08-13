@@ -1,0 +1,14 @@
+RUN_ID=20260718_decarb_virtual_pool_1000twh_scheme_c
+MODEL=C:\Users\86150\Desktop\Dr.seal\能源投资\invest!\人人如龙\人人谦让\newpredictedVRE0.03 - sum - seperate prediction - 0.2c43_REPD2025_physical_income_fixed\decarbonization_cost_research\run_investment_analysis_case3_decarbonization_breakdown_cm.py
+STORAGE_EXPANSION_MODULE_DIR=C:\Users\86150\Desktop\storage_expansion_corrected_caps
+REPD timeline: md5-stable jitter + PYTHONHASHSEED=0
+Stable completion smoke: Dogger Bank A @24m from 2025 -> 2027
+Starting group: 03_future_cm_decarb_base_2025_2035, 07_future_subsidy_as_usual_2025_2035
+Started 03_future_cm_decarb_base_2025_2035: pid=28200, output=C:\Users\86150\Desktop\five_scenario_include_uncertain_freq_cap_runs\03_future_cm_decarb_base_2025_2035_20260718_decarb_virtual_pool_1000twh_scheme_c, checkpoint=none
+Started 07_future_subsidy_as_usual_2025_2035: pid=28068, output=C:\Users\86150\Desktop\five_scenario_include_uncertain_freq_cap_runs\07_future_subsidy_as_usual_2025_2035_20260718_decarb_virtual_pool_1000twh_scheme_c, checkpoint=none
+Finished 03_future_cm_decarb_base_2025_2035 with return_code=0
+Finished 07_future_subsidy_as_usual_2025_2035 with return_code=0
+Starting group: 08_future_governmental_target_2025_2035
+Started 08_future_governmental_target_2025_2035: pid=25024, output=C:\Users\86150\Desktop\five_scenario_include_uncertain_freq_cap_runs\08_future_governmental_target_2025_2035_20260718_decarb_virtual_pool_1000twh_scheme_c, checkpoint=none
+Finished 08_future_governmental_target_2025_2035 with return_code=0
+Wrote C:\Users\86150\Desktop\five_scenario_include_uncertain_freq_cap_runs\run_logs\20260718_decarb_virtual_pool_1000twh_scheme_c\manifest.json

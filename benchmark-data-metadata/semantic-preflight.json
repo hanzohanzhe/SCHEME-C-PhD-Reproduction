@@ -1,0 +1,375 @@
+{
+  "bindings": [
+    {
+      "details": {
+        "bytes": 24405,
+        "checksum_verified": true
+      },
+      "errors": [],
+      "role": "fleet.generators",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 183431,
+        "checksum_verified": true,
+        "clock_adapter": "take_first_required_periods",
+        "csv_rows_including_optional_header": 26204,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1,
+        "non_numeric_or_missing_cells": 0,
+        "numeric_values": 26204
+      },
+      "errors": [],
+      "role": "demand.forecast",
+      "status": "passed",
+      "warnings": [
+        "source has 26204 rows; the Scheme C adapter selects the first 17520 periods"
+      ]
+    },
+    {
+      "details": {
+        "bytes": 183438,
+        "checksum_verified": true,
+        "clock_adapter": "take_first_required_periods",
+        "csv_rows_including_optional_header": 26205,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1,
+        "non_numeric_or_missing_cells": 1,
+        "numeric_values": 26204
+      },
+      "errors": [],
+      "role": "demand.real",
+      "status": "passed",
+      "warnings": [
+        "source has 26205 rows; the Scheme C adapter selects the first 17520 periods"
+      ]
+    },
+    {
+      "details": {
+        "bytes": 624996379,
+        "checksum_verified": true,
+        "dimensions": {
+          "dayofyear": 366,
+          "hour": 24,
+          "latitude": 77,
+          "longitude": 77
+        },
+        "sampled_non_finite_values": 0,
+        "sampled_numeric_values": 4058215,
+        "validation_level": "metadata_plus_bounded_chunks"
+      },
+      "errors": [],
+      "role": "weather.wind",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 207782657,
+        "checksum_verified": true,
+        "dimensions": {
+          "dayofyear": 366,
+          "hour": 24,
+          "latitude": 81,
+          "longitude": 73
+        },
+        "sampled_non_finite_values": 0,
+        "sampled_numeric_values": 1282473,
+        "validation_level": "metadata_plus_bounded_chunks"
+      },
+      "errors": [],
+      "role": "weather.solar",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 114178,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 17521,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.france.profile",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 379586,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 30624,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.france.price",
+      "status": "passed",
+      "warnings": [
+        "source has 30624 rows; the Scheme C interconnector adapter repeats it cyclically"
+      ]
+    },
+    {
+      "details": {
+        "bytes": 96890,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 17521,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.belgium.profile",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 706988,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 15313,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 4
+      },
+      "errors": [],
+      "role": "market.belgium.price",
+      "status": "passed",
+      "warnings": [
+        "source has 15313 rows; the Scheme C interconnector adapter repeats it cyclically"
+      ]
+    },
+    {
+      "details": {
+        "bytes": 96417,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 17521,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.netherlands.profile",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 301950,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 24430,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.netherlands.price",
+      "status": "passed",
+      "warnings": [
+        "source has 24430 rows; the Scheme C interconnector adapter repeats it cyclically"
+      ]
+    },
+    {
+      "details": {
+        "bytes": 97041,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 17521,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.norway.profile",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 378974,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 30624,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.norway.price",
+      "status": "passed",
+      "warnings": [
+        "source has 30624 rows; the Scheme C interconnector adapter repeats it cyclically"
+      ]
+    },
+    {
+      "details": {
+        "bytes": 91116,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 17521,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.ireland.profile",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 215744,
+        "checksum_verified": true,
+        "clock_adapter": "cyclic_repeat",
+        "csv_rows_including_optional_header": 17520,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "market.ireland.price",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 73371,
+        "checksum_verified": true,
+        "clock_adapter": "hourly_or_half_hour_profile",
+        "csv_rows_including_optional_header": 8761,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "profiles.vre_solar",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 102307,
+        "checksum_verified": true,
+        "clock_adapter": "hourly_or_half_hour_profile",
+        "csv_rows_including_optional_header": 8760,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "profiles.vre_onshore",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 108100,
+        "checksum_verified": true,
+        "clock_adapter": "hourly_or_half_hour_profile",
+        "csv_rows_including_optional_header": 8760,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 1
+      },
+      "errors": [],
+      "role": "profiles.vre_offshore",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 1555358,
+        "checksum_verified": true,
+        "csv_rows_including_optional_header": 10654,
+        "duplicate_project_ids": 0,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 14
+      },
+      "errors": [],
+      "role": "projects.repd",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 4411718,
+        "checksum_verified": true,
+        "csv_rows_including_optional_header": 12978,
+        "encoding": "cp1252",
+        "first_row_columns": 53
+      },
+      "errors": [],
+      "role": "source.repd_raw",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 502,
+        "checksum_verified": true
+      },
+      "errors": [],
+      "role": "costs.capital",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 6760,
+        "checksum_verified": true
+      },
+      "errors": [],
+      "role": "policy.support",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 2657,
+        "checksum_verified": true
+      },
+      "errors": [],
+      "role": "planning.timelines",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 4445,
+        "checksum_verified": true,
+        "csv_rows_including_optional_header": 47,
+        "encoding": "utf-8-sig",
+        "first_row_columns": 9
+      },
+      "errors": [],
+      "role": "planning.success_rates",
+      "status": "passed",
+      "warnings": []
+    },
+    {
+      "details": {
+        "bytes": 2315,
+        "checksum_verified": true
+      },
+      "errors": [],
+      "role": "config.model_parameters",
+      "status": "passed",
+      "warnings": []
+    }
+  ],
+  "data_pack_id": "uk-scheme-c-1000twh",
+  "errors": [],
+  "schema_version": "gridform.data-pack-validation/v1",
+  "summary": {
+    "failed": 0,
+    "passed": 25,
+    "total": 25
+  },
+  "valid": true,
+  "warnings": [
+    "demand.forecast: source has 26204 rows; the Scheme C adapter selects the first 17520 periods",
+    "demand.real: source has 26205 rows; the Scheme C adapter selects the first 17520 periods",
+    "market.france.price: source has 30624 rows; the Scheme C interconnector adapter repeats it cyclically",
+    "market.belgium.price: source has 15313 rows; the Scheme C interconnector adapter repeats it cyclically",
+    "market.netherlands.price: source has 24430 rows; the Scheme C interconnector adapter repeats it cyclically",
+    "market.norway.price: source has 30624 rows; the Scheme C interconnector adapter repeats it cyclically"
+  ]
+}

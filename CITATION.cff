@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite Hanzhe Xing's associated PhD thesis or publication and this archived software release."
+title: "Scheme C 1000 TWh: PhD thesis reproduction archive"
+type: software
+version: "scheme-c-1000twh-2026-07-18_19"
+date-released: 2026-08-13
+authors:
+  - given-names: "Hanzhe"
+    family-names: "Xing"
+identifiers:
+  - type: other
+    value: "scheme-c-1000twh-2026-07-18_19"
+    description: "Frozen research release identifier"
+license: Apache-2.0

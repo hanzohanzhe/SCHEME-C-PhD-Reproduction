@@ -1,0 +1,30 @@
+{
+  "run_id": "20260718_decarb_virtual_pool_1000twh_scheme_c",
+  "finished": "2026-07-19T14:32:52",
+  "results": [
+    {
+      "scenario": "03_future_cm_decarb_base_2025_2035",
+      "return_code": 0,
+      "started": "2026-07-18T06:31:22",
+      "finished": "2026-07-18T23:46:39",
+      "output_dir": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\03_future_cm_decarb_base_2025_2035_20260718_decarb_virtual_pool_1000twh_scheme_c",
+      "log": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\run_logs\\20260718_decarb_virtual_pool_1000twh_scheme_c\\03_future_cm_decarb_base_2025_2035.log"
+    },
+    {
+      "scenario": "07_future_subsidy_as_usual_2025_2035",
+      "return_code": 0,
+      "started": "2026-07-18T06:31:22",
+      "finished": "2026-07-18T23:47:24",
+      "output_dir": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\07_future_subsidy_as_usual_2025_2035_20260718_decarb_virtual_pool_1000twh_scheme_c",
+      "log": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\run_logs\\20260718_decarb_virtual_pool_1000twh_scheme_c\\07_future_subsidy_as_usual_2025_2035.log"
+    },
+    {
+      "scenario": "08_future_governmental_target_2025_2035",
+      "return_code": 0,
+      "started": "2026-07-18T23:47:24",
+      "finished": "2026-07-19T14:32:52",
+      "output_dir": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\08_future_governmental_target_2025_2035_20260718_decarb_virtual_pool_1000twh_scheme_c",
+      "log": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\run_logs\\20260718_decarb_virtual_pool_1000twh_scheme_c\\08_future_governmental_target_2025_2035.log"
+    }
+  ]
+}

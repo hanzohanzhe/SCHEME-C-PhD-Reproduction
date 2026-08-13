@@ -1,0 +1,24 @@
+{
+  "run_id": "20260719_base_cm_aligned_repd_virtual_pool_1000twh_scheme_c",
+  "finished": "2026-07-20T16:05:56",
+  "planning": "md5_stable + PYTHONHASHSEED=0",
+  "storage_cap": "scheme_c + 1000 TWh virtual pool",
+  "results": [
+    {
+      "scenario": "06_future_base_with_cm_2025_2035",
+      "return_code": 0,
+      "started": "2026-07-19T22:32:38",
+      "finished": "2026-07-20T15:58:41",
+      "output_dir": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\06_future_base_with_cm_2025_2035_20260719_base_cm_aligned_repd_virtual_pool_1000twh_scheme_c",
+      "log": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\run_logs\\20260719_base_cm_aligned_repd_virtual_pool_1000twh_scheme_c\\06_future_base_with_cm_2025_2035.log"
+    },
+    {
+      "scenario": "05_future_base_2025_2035",
+      "return_code": 0,
+      "started": "2026-07-19T22:32:38",
+      "finished": "2026-07-20T16:05:56",
+      "output_dir": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\05_future_base_2025_2035_20260719_base_cm_aligned_repd_virtual_pool_1000twh_scheme_c",
+      "log": "C:\\Users\\86150\\Desktop\\five_scenario_include_uncertain_freq_cap_runs\\run_logs\\20260719_base_cm_aligned_repd_virtual_pool_1000twh_scheme_c\\05_future_base_2025_2035.log"
+    }
+  ]
+}

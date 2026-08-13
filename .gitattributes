@@ -1,0 +1,15 @@
+# Maintainer-authored documentation and tooling use stable LF line endings.
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=crlf
+*.py text eol=lf
+*.txt text eol=lf
+
+# Keep these rules last: historical artefacts must enter Git byte-for-byte.
+# Their hashes are scientific evidence and override the generic extensions above.
+original-model/** -text
+original-drivers/** -text
+external-storage/** -text
+reference-results/** -text

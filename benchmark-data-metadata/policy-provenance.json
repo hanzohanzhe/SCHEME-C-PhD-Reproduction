@@ -1,0 +1,61 @@
+{
+  "schema_version": "force.policy-input-provenance/v1",
+  "workbook_sha256": "666155faabf6fc99b296685038a7e2e3c37b77e0c7aac3a39f9691315ddc8bb2",
+  "workbook_owner": "Hanzhe Xing",
+  "workbook_licence": "CC-BY-4.0",
+  "scientific_status": "owner_authored_research_input_with_mixed_observed_approximate_and_projected_values",
+  "historical_rows": "2015/16-2024/25",
+  "projection_rows": "2025/25-2035/35 (labels preserved literally from the research workbook)",
+  "columns": [
+    {
+      "columns": ["CM size (GW)", "Annual CM Cost (£mn)"],
+      "source": "NESO Capacity Market Auction Capacity and Cost",
+      "url": "https://www.neso.energy/data-portal/capacity-market-register/capacity_market_auction_capacity_and_cost",
+      "licence": "NESO Open Data Licence v1.0 where stated by the dataset",
+      "status": "source_family_pinned; historical workbook values not row-hash-reconstructed"
+    },
+    {
+      "columns": ["Transmission limits", "Frequency Control", "Reserve", "Energy Imbalance", "Other Services", "Balancing total"],
+      "source": "NESO Balancing Costs reports and data workbooks",
+      "url": "https://www.neso.energy/industry-information/balancing-costs",
+      "licence": "dataset/report-specific NESO terms",
+      "status": "several historical cells are author estimates marked with ~; not authority observations; forward totals are model projections"
+    },
+    {
+      "columns": ["RO"],
+      "source": "Ofgem Renewables Obligation annual reports and datasets",
+      "url": "https://www.ofgem.gov.uk/environmental-and-social-schemes/renewables-obligation-ro/contacts-publications-and-data/public-reports-and-data-ro",
+      "licence": "Open Government Licence where stated by the publication",
+      "status": "source family pinned; workbook aggregation remains the published research snapshot"
+    },
+    {
+      "columns": ["FiT"],
+      "source": "Ofgem Feed-in Tariffs annual and levelisation reports",
+      "url": "https://www.ofgem.gov.uk/feed-tariffs-fit/contacts-guidance-and-resources/public-reports-and-data-fit",
+      "licence": "Open Government Licence where stated by the publication",
+      "status": "source family pinned; approximate cells remain approximate"
+    },
+    {
+      "columns": ["CfD"],
+      "source": "Low Carbon Contracts Company actual and forecast CfD payment datasets",
+      "url": "https://dp.lowcarboncontracts.uk/organization/lccc?license_id=uk-ogl&tags=CfD&tags=CfD+Payment",
+      "licence": "UK Open Government Licence",
+      "status": "source family pinned; the workbook is an annual author aggregation"
+    },
+    {
+      "columns": ["REGO"],
+      "source": "Ofgem REGO public reports plus author market-value assumption",
+      "url": "https://www.ofgem.gov.uk/renewables-energy-guarantees-origin-rego/contacts-publications-and-data/public-reports-and-data-rego",
+      "licence": "Open Government Licence where stated by the publication",
+      "status": "the monetary series is a research assumption, not an Ofgem scheme-expenditure observation"
+    },
+    {
+      "columns": ["Security Budget (£mn)", "Decarbonization Budget (£mn)"],
+      "source": "workbook aggregation",
+      "url": null,
+      "licence": "CC-BY-4.0 owner-authored transformation",
+      "status": "derived totals; 2025-2035 values are scenario inputs, not forecasts endorsed by upstream authorities"
+    }
+  ],
+  "release_rule": "Redistribution is permitted as an attributed owner-authored research input. Scientific users must not relabel approximate or projected cells as observed government data."
+}

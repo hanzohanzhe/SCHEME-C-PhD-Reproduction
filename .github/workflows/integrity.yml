@@ -20,3 +20,24 @@ jobs:
           python-version: "3.10"
       - name: Verify original bytes, Python syntax and reference run manifests
         run: python reproduction-tools/verify_repository.py
+      - name: Parse Windows installation helpers
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $files = @(
+            'reproduction-tools/create-environment.ps1',
+            'reproduction-tools/install-scheme-c.ps1',
+            'reproduction-tools/mount-weather-drive.ps1',
+            'reproduction-tools/prepare-data.ps1',
+            'reproduction-tools/run-scheme-c.ps1'
+          )
+          foreach ($file in $files) {
+            $tokens = $null
+            $errors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile(
+              (Resolve-Path $file), [ref]$tokens, [ref]$errors
+            ) | Out-Null
+            if ($errors.Count -gt 0) {
+              throw "$file contains PowerShell parse errors: $($errors.Message -join '; ')"
+            }
+          }

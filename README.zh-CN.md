@@ -1,8 +1,12 @@
 # Scheme C 1000 TWh——博士论文原始模型复现档案
 
-这个私有仓库保存了 2026 年 7 月 18–19 日运行 1000 TWh 虚拟储能池情景时
+这个公开仓库保存了 2026 年 7 月 18–19 日运行 1000 TWh 虚拟储能池情景时
 使用的原始 Scheme C 研究模型。它的用途是复现、核查 Hanzhe Xing 博士论文
 相关的数值结果。它不是后来模块化的 FORCE 前端和平台。
+
+最短安装步骤见 [`docs/QUICKSTART.zh-CN.md`](docs/QUICKSTART.zh-CN.md)。公开访问
+包括源代码、文档和保留的紧凑结果；真正运行数值模型还需要单独管理的英国
+benchmark 压缩包。公开仓库访问权不等于该数据包的访问权。
 
 ## 仓库里分别是什么
 
@@ -35,14 +39,32 @@
 ## 需要安装什么
 
 - Windows 10/11；
-- Git 和已经登录私有仓库的 GitHub CLI（`gh`）；
+- Git（也可以直接下载源码 ZIP）；
+- 已登录数据仓库的 GitHub CLI（`gh`），或者已在本机取得固定的英国 benchmark ZIP；
 - CPython 3.10.11，并可通过 `py -3.10` 调用；
 - 短期运行至少预留约 5 GB；
 - 完整 generation trace、checkpoint 和十年结果需要更多空间。
 
 完整五情景十年复现可能运行一天到几天。第一次请只跑一年。
 
-## 第一次安装
+## 快速安装
+
+克隆或下载本仓库后，已获数据访问权的用户可双击 `install-scheme-c.cmd`。
+它会依次核验冻结档案、创建锁定的 Python 环境、下载或接收固定数据包、建立
+一次性运行目录，并挂载原始模型使用的天气路径。
+
+如果数据 ZIP 已经在电脑上，请运行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File reproduction-tools/install-scheme-c.ps1 `
+  -ArchivePath "D:\path\force-uk-benchmark-2025-v1.zip"
+```
+
+匿名公开用户可以下载代码并完成完整性核验，但在取得单独管理的数据包之前，
+不能完成数值复现。两种访问级别和预期结果见
+[`docs/QUICKSTART.zh-CN.md`](docs/QUICKSTART.zh-CN.md)。
+
+## 手工安装
 
 在仓库根目录打开 PowerShell：
 

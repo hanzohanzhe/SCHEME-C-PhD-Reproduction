@@ -1,11 +1,16 @@
 # Scheme C 1000 TWh — PhD thesis reproduction archive
 
-This private repository preserves the original Scheme C research model used for
+This public repository preserves the original Scheme C research model used for
 the 1000 TWh virtual-storage-pool runs of 18–19 July 2026. Its purpose is to
 reproduce and audit the numerical results associated with Hanzhe Xing's PhD
 research. It is a historical baseline, not the modular FORCE application.
 
 For Chinese instructions, see [README.zh-CN.md](README.zh-CN.md).
+
+For the shortest installation path, see [docs/QUICKSTART.md](docs/QUICKSTART.md).
+Public access covers the source, documentation and retained compact results.
+Running the numerical model also requires the separately governed UK benchmark
+archive; public repository access alone does not grant access to that data.
 
 ## What is here
 
@@ -43,7 +48,9 @@ copy under `work/` and run that copy.
 ## Requirements
 
 - Windows 10 or 11;
-- Git and GitHub CLI (`gh`), authenticated to the private repositories;
+- Git (or a downloaded source ZIP);
+- GitHub CLI (`gh`) authenticated to the data repository, or a local copy of
+  the fixed UK benchmark archive;
 - CPython 3.10.11 through the Windows `py` launcher;
 - at least 5 GB free for the data, environment and a short run;
 - substantially more space for full generation traces and checkpoints.
@@ -51,7 +58,26 @@ copy under `work/` and run that copy.
 The full five-scenario ten-year reproduction can take one to several days,
 depending on CPU and disk speed. Start with a one-year run.
 
-## First-time setup
+## Fast installation
+
+After cloning or downloading this repository, an authorised data user can
+double-click `install-scheme-c.cmd`. It verifies the frozen archive, creates the
+locked Python environment, downloads or accepts the fixed benchmark archive,
+prepares a disposable work tree and mounts the historical weather path.
+
+If you already have the benchmark ZIP, use:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File reproduction-tools/install-scheme-c.ps1 `
+  -ArchivePath "D:\path\force-uk-benchmark-2025-v1.zip"
+```
+
+An anonymous public user can clone the repository and run the integrity check,
+but cannot complete a numerical reproduction until the separately governed data
+asset is supplied. See [docs/QUICKSTART.md](docs/QUICKSTART.md) for the two access
+levels and precise expected outcomes.
+
+## Manual first-time setup
 
 Open PowerShell in the repository root.
 
@@ -62,7 +88,8 @@ py -3.10 reproduction-tools/verify_repository.py
 # 2. Create the accepted Python 3.10 environment.
 powershell -ExecutionPolicy Bypass -File reproduction-tools/create-environment.ps1
 
-# 3. Download the private UK benchmark and prepare a disposable work tree.
+# 3. Download the separately governed UK benchmark, or pass -ArchivePath,
+#    and prepare a disposable work tree.
 powershell -ExecutionPolicy Bypass -File reproduction-tools/prepare-data.ps1
 
 # 4. Map the repository weather folder to the original model's F: path.

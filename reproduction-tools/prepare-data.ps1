@@ -89,11 +89,11 @@ foreach ($relative in $relativeInputs) {
 Copy-Item -LiteralPath (Join-Path $packRoot "files\weather__wind\average_annual_wind_profile.nc") -Destination $weatherDir
 Copy-Item -LiteralPath (Join-Path $packRoot "files\weather__solar\average_annual_solar_profile.nc") -Destination $weatherDir
 
-$headRef = Join-Path $repoRoot ".git\refs\heads\main"
-$sourceCommit = if (Test-Path -LiteralPath $headRef) {
-    (Get-Content -LiteralPath $headRef -Raw).Trim()
+$sourceCommit = (& git -C $repoRoot rev-parse HEAD 2>$null)
+if ($LASTEXITCODE -ne 0 -or -not $sourceCommit) {
+    $sourceCommit = "uncommitted"
 } else {
-    "uncommitted"
+    $sourceCommit = ([string]$sourceCommit).Trim()
 }
 $prepared = [ordered]@{
     schema_version = "scheme-c.reproduction-prepared/v1"
